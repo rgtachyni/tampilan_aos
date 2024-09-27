@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   @vite('resources/css/app.css')
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
   <section class="bg-pink text-white ">
@@ -22,7 +22,7 @@
         </div>
 
     <div class="hidden gap-4 font-bold  md:flex space-x-4 " id="menu">
-      <a href="" class="hover:text-pinkmuda">Home</a>
+      <a href="" class="hover:text-pinkmuda" >Home</a>
       <a href="" class="hover:text-pinkmuda">How it works</a>
       <a href="" class="hover:text-pinkmuda">Features</a>
       <a href="" class="hover:text-pinkmuda">Pages</a>
@@ -36,8 +36,8 @@
 
     <div class="flex pt-5 pl-44 flex-col  md:flex-row ">
       <div class="w-full pt-20  ">
-        <h1 class="md:text-4xl text-6xl md:text-center font-bold text-left" data-aos="fade-up" data-aos-duration="2000"  data-aos-mirror="true">Best way to manage <br> your costumer.</h1>
-        <h1 data-aos="fade-up" data-aos-duration="2000"  data-aos-mirror="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid et sequi reprehenderit dicta optio deleniti nisi maxime quasi ad cumque!</h1>
+        <h1 class="md:text-4xl text-6xl md:text-center font-bold text-left">Best way to manage <br> your costumer.</h1>
+        <h1 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid et sequi reprehenderit dicta optio deleniti nisi maxime quasi ad cumque!</h1>
         <div class="flex gap-3 pt-5 ">
         <div class=" bg-white text-pink flex px-3 py-1 rounded-md">
           <img src="{{asset('gambar/hp.png')}}" alt="" class="h-8 ">
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="w-full  grid justify-center pt-14  "> 
-        <img src="{{asset('gambar/meong.png')}}" alt="" class="w-96 "  data-aos="zoom-in"  data-aos-duration="2000" data-aos-mirror="true">
+        <img src="{{asset('gambar/meong.png')}}" alt="" class="w-96 "  >
       </div>
     </div>
   </section>
@@ -62,29 +62,28 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f542b3" fill-opacity="1" d="M0,32L34.3,74.7C68.6,117,137,203,206,234.7C274.3,267,343,245,411,218.7C480,192,549,160,617,165.3C685.7,171,754,213,823,213.3C891.4,213,960,171,1029,149.3C1097.1,128,1166,128,1234,138.7C1302.9,149,1371,171,1406,181.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
 
   <section class="grid justify-center ">
-    <h1 class="font-bold text-2xl text-center text-pink"  data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">Trusted by 
+    <h1 class="font-bold text-2xl text-center text-pink"  
+     >Trusted by 
     <span class="text-pinkmuda">150+ </span> Companies</h1>
     <h1 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum <br> omnis perferendis maiores eveniet laudantium commodi.</h1>
     <div class="flex gap-10 pt-10 items-center font-bold">
-      <div class="flex items-center gap-1 " data-aos="zoom-in" data-aos-duration="2000">
+      <div class="flex items-center gap-1 " >
       <img src="{{asset('gambar/paypal.png')}}" alt="" class="h-14">
       <h1>Paypal</h1>
       </div>
-      <div class="flex items-center gap-1" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
+      <div class="flex items-center gap-1" >
       <img src="{{asset('gambar/spotify.png')}}" alt="" class="h-14">
       <h1 class=" font-bold">Spotify</h1>
       </div>
-      <div class="flex items-center gap-1" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1000">
+      <div class="flex items-center gap-1" >
       <img src="{{asset('gambar/fast-forward.png')}}" alt="" class="h-14">
       <h1>Shopbot</h1>
       </div>
-      <div class="flex items-center gap-2" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1500">
+      <div class="flex items-center gap-2" >
       <img src="{{asset('gambar/slack.png')}}" alt="" class="h-14">
       <h1>Slack</h1>
       </div>
-      <div class="flex items-center gap-1" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="2000">
+      <div class="flex items-center gap-1" >
       <img src="{{asset('gambar/hastag.png')}}" alt="" class="h-14">
       <h1>Envato</h1>
       </div>
@@ -96,9 +95,7 @@
 
   <section class="flex pt-20  flex-col  md:flex-row  ">
     <div class=" justify-center flex items-center md:w-full " >
-      <img src="{{asset('gambar/people.png')}}" alt="" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-duration="1000">
+      <img src="{{asset('gambar/people.png')}}" alt="">
     </div>
     <div class="w-full mx-10">
       <h1 class="text-pink text-3xl font-bold text-center md:text-left mt-10">Some awesome words <br> <span class="text-pinkmuda">about app.</span></h1>
@@ -268,16 +265,5 @@
 
   
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-     // JavaScript untuk mengaktifkan/mematikan menu pada tampilan mobile
-     document.getElementById('menu-button').addEventListener('click', function() {
-            var menu = document.getElementById('menu');
-            menu.classList.toggle('hidden');
-        });
-  </script>
 </body>
 </html>
